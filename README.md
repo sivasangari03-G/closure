@@ -89,7 +89,6 @@ function throttling(func, delay) {
 			if (flag) {
 				func();
 				flag = false;
-
 				setTimeout(function () {
 					flag = true;
 				}, delay);
